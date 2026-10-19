@@ -1,0 +1,1369 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\mineg\\Wireless_Lamp_Switch\\Transmitter.kicad_sch")
+		(date "2026-10-19T11:48:57")
+		(tool "Eeschema 10.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Wireless Lamp Switch - Transmitter")
+				(company "Wireless_Lamp_Switch")
+				(rev "1.0")
+				(date)
+				(source "Transmitter.kicad_sch")
+				(comment
+					(number "1")
+					(value "All parts are pre-built modules; every net is named with a global label")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "Arduino_Nano")
+			(footprint "Module:Arduino_Nano")
+			(description "Arduino Nano v3 on 2x15 2.54mm headers")
+			(fields
+				(field
+					(name "Footprint") "Module:Arduino_Nano")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Arduino Nano v3 on 2x15 2.54mm headers")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "Arduino_Nano")
+				(description "Arduino Nano v3 on 2x15 2.54mm headers")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "555ba4ab-7b05-59aa-87a3-b0b65fbeaab0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "BT1")
+			(value "2xAAA")
+			(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+			(description "2xAAA battery holder lead, 2-pin JST-PH")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2xAAA battery holder lead, 2-pin JST-PH")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "Battery_2xAAA")
+				(description "2xAAA battery holder lead, 2-pin JST-PH")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00d42cd9-ef79-5fcb-b494-c0a33210caf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10uF")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+			(description "Electrolytic bulk capacitor for nRF24 supply")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Electrolytic bulk capacitor for nRF24 supply")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "C_Polarized")
+				(description "Electrolytic bulk capacitor for nRF24 supply")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4182c9a-950e-5c9a-a8ad-72296b0907b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SPST_Slide")
+			(footprint "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm")
+			(description "SPST slide power switch")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SPST slide power switch")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "SW_SPST_Slide")
+				(description "SPST slide power switch")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "03fcc3be-6bc4-5f2e-8448-432d3030c554")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "nRF24L01")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+			(description "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "nRF24L01_Module")
+				(description "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4828bcc6-e64c-5d4f-975b-174824a95f8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TTP223")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "TTP223 capacitive touch module, 1x3 2.54mm header")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TTP223 capacitive touch module, 1x3 2.54mm header")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "TTP223_Module")
+				(description "TTP223 capacitive touch module, 1x3 2.54mm header")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "066156da-dc76-521d-a57f-31477643665a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "MT3608")
+			(footprint "Wireless_Lamp_Switch:MT3608_Module")
+			(description "MT3608 boost converter module, 4 solder pads")
+			(fields
+				(field
+					(name "Footprint") "Wireless_Lamp_Switch:MT3608_Module")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "MT3608 boost converter module, 4 solder pads")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "MT3608_Module")
+				(description "MT3608 boost converter module, 4 solder pads")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Transmitter.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d433e1f-f144-5326-9a7a-ce12aa602a74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "Arduino_Nano")
+			(description "Arduino Nano v3 on 2x15 2.54mm headers")
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "Arduino_Nano")
+				(field
+					(name "Footprint") "Module:Arduino_Nano")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Arduino Nano v3 on 2x15 2.54mm headers")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D1/TX")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D0/RX")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "~{RESET}")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D2")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D3")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D4")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "D5")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "D6")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "D7")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "D8")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "D9")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "D10")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "D11/MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "D12/MISO")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "D13/SCK")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "AREF")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "A0")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "A2")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "A3")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "A4")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "A5")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "A6")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "A7")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "+5V")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "~{RESET}")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "VIN")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "Battery_2xAAA")
+			(description "2xAAA battery holder lead, 2-pin JST-PH")
+			(fields
+				(field
+					(name "Reference") "BT")
+				(field
+					(name "Value") "Battery_2xAAA")
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2xAAA battery holder lead, 2-pin JST-PH")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "C_Polarized")
+			(description "Electrolytic bulk capacitor for nRF24 supply")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Electrolytic bulk capacitor for nRF24 supply")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "MT3608_Module")
+			(description "MT3608 boost converter module, 4 solder pads")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MT3608_Module")
+				(field
+					(name "Footprint") "Wireless_Lamp_Switch:MT3608_Module")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "MT3608 boost converter module, 4 solder pads")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "IN-")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "OUT+")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "OUT-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "SW_SPST_Slide")
+			(description "SPST slide power switch")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_SPST_Slide")
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SPST slide power switch")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "TTP223_Module")
+			(description "TTP223 capacitive touch module, 1x3 2.54mm header")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TTP223_Module")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TTP223 capacitive touch module, 1x3 2.54mm header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "OUT")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "VCC")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "nRF24L01_Module")
+			(description "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "nRF24L01_Module")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "CE")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "CSN")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "SCK")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "MISO")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "IRQ")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Wireless_Lamp_Switch")
+			(uri "${KIPRJMOD}/Wireless_Lamp_Switch.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Power")
+			(node
+				(ref "A1")
+				(pin "27")
+				(pinfunction "+5V_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "VCC_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "OUT+_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "BAT+")
+			(class "Power")
+			(node
+				(ref "BT1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "BAT-")
+			(class "Power")
+			(node
+				(ref "BT1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "IN-_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "GND")
+			(class "Power")
+			(node
+				(ref "A1")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "OUT-_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "RF_3V3")
+			(class "RF_Supply")
+			(node
+				(ref "A1")
+				(pin "17")
+				(pinfunction "3V3_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "RF_CE")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "11")
+				(pinfunction "D8_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "CE_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "RF_CSN")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "12")
+				(pinfunction "D9_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "CSN_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "RF_MISO")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "15")
+				(pinfunction "D12/MISO_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "MISO_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "RF_MOSI")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "14")
+				(pinfunction "D11/MOSI_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "MOSI_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "RF_SCK")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "16")
+				(pinfunction "D13/SCK_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SCK_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "TOUCH_SIG")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "6")
+				(pinfunction "D3_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "OUT_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "VIN_RAW")
+			(class "Power")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "IN+_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(A1-A0-Pad19)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "19")
+				(pinfunction "A0_19")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(A1-A1-Pad20)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "20")
+				(pinfunction "A1_20")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(A1-A2-Pad21)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "21")
+				(pinfunction "A2_21")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(A1-A3-Pad22)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "22")
+				(pinfunction "A3_22")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(A1-A4-Pad23)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "23")
+				(pinfunction "A4_23")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(A1-A5-Pad24)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "24")
+				(pinfunction "A5_24")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(A1-A6-Pad25)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "25")
+				(pinfunction "A6_25")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(A1-A7-Pad26)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "26")
+				(pinfunction "A7_26")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(A1-AREF-Pad18)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "18")
+				(pinfunction "AREF_18")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(A1-D0{slash}RX-Pad2)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "2")
+				(pinfunction "D0/RX_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(A1-D1{slash}TX-Pad1)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "D1/TX_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(A1-D2-Pad5)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5")
+				(pinfunction "D2_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(A1-D4-Pad7)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "7")
+				(pinfunction "D4_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(A1-D5-Pad8)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "8")
+				(pinfunction "D5_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(A1-D6-Pad9)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "9")
+				(pinfunction "D6_9")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(A1-D7-Pad10)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "10")
+				(pinfunction "D7_10")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(A1-D10-Pad13)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "13")
+				(pinfunction "D10_13")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(A1-VIN-Pad30)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "30")
+				(pinfunction "VIN_30")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(A1-~{RESET}-Pad3)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "3")
+				(pinfunction "~{RESET}_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(A1-~{RESET}-Pad28)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "28")
+				(pinfunction "~{RESET}_28")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U1-IRQ-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IRQ_8")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

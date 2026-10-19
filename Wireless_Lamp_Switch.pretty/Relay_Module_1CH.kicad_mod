@@ -1,0 +1,212 @@
+(footprint "Relay_Module_1CH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "5V 1-channel relay module: 3-pin logic header + NO/COM/NC jumper pads (6mm pitch)")
+	(property "Reference" "REF**"
+		(at 21 -12 0)
+		(layer "F.SilkS")
+		(uuid "70d91c3b-6eac-47ea-bba9-4142039f8a46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_Module_1CH"
+		(at 21 2.54 0)
+		(layer "F.Fab")
+		(uuid "94132003-1670-4443-8353-ba6f0861342f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfcf11ae-cfd8-4d07-9c23-a233137e06fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de5dc79f-458f-4d5c-8c23-3beae0ceab67")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4 -10.46)
+		(end 46 15.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b4be57a5-1ce8-477b-a858-79e4691e6b22")
+	)
+	(fp_rect
+		(start -4.25 -10.71)
+		(end 46.25 15.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5216effc-2fd9-4d1f-8dab-382d36f3cc7b")
+	)
+	(fp_rect
+		(start -4 -10.46)
+		(end 46 15.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dc893520-0cb1-4d09-8240-05cba3f0f23a")
+	)
+	(fp_text user "IN"
+		(at 3.2 5.08 0)
+		(layer "F.SilkS")
+		(uuid "2d22168d-68de-4051-b9b5-4342c1e3454b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 3.6 0 0)
+		(layer "F.SilkS")
+		(uuid "33cadc9f-1864-4812-a7e6-ea1a591e1a65")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.6 2.54 0)
+		(layer "F.SilkS")
+		(uuid "339cdb49-5a23-4e6c-8add-0d5f887bfa85")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(fp_text user "RELAY MODULE"
+		(at 21 10.5 0)
+		(layer "F.SilkS")
+		(uuid "626f4979-6b2a-4326-9768-51c65703cbe4")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(fp_text user "NO"
+		(at 48.2 -3.46 0)
+		(layer "F.SilkS")
+		(uuid "9df4ff3b-0d07-4118-b657-36c40d946fff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "NC"
+		(at 48.2 8.54 0)
+		(layer "F.SilkS")
+		(uuid "f40cf43c-98ac-45ae-920a-573ec14ae66e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "COM"
+		(at 48.8 2.54 0)
+		(layer "F.SilkS")
+		(uuid "7071589c-71a2-4b5d-9708-0f1132be6410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc40ecfa-e435-4121-9abb-2ba4bea29917")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6ee3f90-40f5-463c-886f-ebd361f19ef5")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21f45cbf-6d08-42e8-9267-15b52b8e1338")
+	)
+	(pad "4" thru_hole circle
+		(at 44 2.54)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2254cb16-3211-4c0c-920b-85bad9ec90e8")
+	)
+	(pad "5" thru_hole circle
+		(at 44 -3.46)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a09c5ed1-2ccc-4cbe-9c77-af58b96d905a")
+	)
+	(pad "6" thru_hole circle
+		(at 44 8.54)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c185cc55-6ebd-444f-b488-da492ba81123")
+	)
+	(embedded_fonts no)
+)

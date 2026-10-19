@@ -1,0 +1,174 @@
+(footprint "MT3608_Module"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MT3608 2A boost converter module, 4 corner solder pads")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(layer "F.SilkS")
+		(uuid "1992e49b-5774-410e-869a-3af763dca053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MT3608_Module"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d08cb9ea-493b-4b95-83e9-570ad79dbcda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "694bec2a-66ad-49aa-bf0e-b69b26a091e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "829a1ac0-2140-4261-92e3-8be3a59b3780")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -18.5 -8.75)
+		(end 18.5 8.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "28aa6bb4-22e8-4c79-b444-1ced04647be8")
+	)
+	(fp_rect
+		(start -18.75 -9)
+		(end 18.75 9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7d333897-71de-4f5f-9a78-a8c0b20baf64")
+	)
+	(fp_rect
+		(start -18.5 -8.75)
+		(end 18.5 8.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "229820d8-ddf1-4f05-8d0e-a599fff4a977")
+	)
+	(fp_text user "OUT+"
+		(at -11.5 -6 0)
+		(layer "F.SilkS")
+		(uuid "7e8da7c4-af9d-404c-9d3a-6649472451cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at -11.5 6 0)
+		(layer "F.SilkS")
+		(uuid "0e2ab8f3-509e-4a47-b4f4-18886b13db5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "MT3608 BOOST"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c5dda07b-d08e-4943-84e6-3077ddc54a12")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(fp_text user "IN+"
+		(at 12 -6 0)
+		(layer "F.SilkS")
+		(uuid "37f28c4b-30be-4ebd-9ef6-87f90a4e5b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at 12 6 0)
+		(layer "F.SilkS")
+		(uuid "273f8b48-9ef7-4c90-985d-596c8c34fed1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 16 -6)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8f72793-a8b1-48c0-b7d1-f2953bb44b6b")
+	)
+	(pad "2" thru_hole circle
+		(at 16 6)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04b9bcca-3f44-4914-8399-caf73302c3ba")
+	)
+	(pad "3" thru_hole circle
+		(at -16 -6)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8374adf5-1b4f-477d-be61-1f68287a58b6")
+	)
+	(pad "4" thru_hole circle
+		(at -16 6)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f0823dc-1729-4255-b877-893355759fc1")
+	)
+	(embedded_fonts no)
+)

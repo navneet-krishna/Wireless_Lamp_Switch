@@ -1,0 +1,1358 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\mineg\\Wireless_Lamp_Switch\\Receiver.kicad_sch")
+		(date "2026-10-19T11:48:59")
+		(tool "Eeschema 10.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Wireless Lamp Switch - Receiver")
+				(company "Wireless_Lamp_Switch")
+				(rev "1.0")
+				(date)
+				(source "Receiver.kicad_sch")
+				(comment
+					(number "1")
+					(value "All parts are pre-built modules; every net is named with a global label")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "Arduino_Nano")
+			(footprint "Module:Arduino_Nano")
+			(description "Arduino Nano v3 on 2x15 2.54mm headers")
+			(fields
+				(field
+					(name "Footprint") "Module:Arduino_Nano")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Arduino Nano v3 on 2x15 2.54mm headers")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "Arduino_Nano")
+				(description "Arduino Nano v3 on 2x15 2.54mm headers")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4a4fbc9d-b0a0-550d-aebe-4ec5fb37db20")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10uF")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+			(description "Electrolytic bulk capacitor for nRF24 supply")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Electrolytic bulk capacitor for nRF24 supply")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "C_Polarized")
+				(description "Electrolytic bulk capacitor for nRF24 supply")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bdad327b-5e7a-5458-8de8-357ce9ae9ad2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "5V_DC_IN")
+			(footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
+			(description "5V DC barrel jack (centre positive)")
+			(fields
+				(field
+					(name "Footprint") "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V DC barrel jack (centre positive)")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "DC_Jack_5V")
+				(description "5V DC barrel jack (centre positive)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d28bdf77-725c-5f34-b78c-1be4bcde5fd0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "AC_IN")
+			(footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal")
+			(description "Mains screw terminal, 7.5mm pitch, 300V rated")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mains screw terminal, 7.5mm pitch, 300V rated")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "AC_Terminal_2P")
+				(description "Mains screw terminal, 7.5mm pitch, 300V rated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9dd8973a-8a61-5d6e-acb7-ad72691368e3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "AC_OUT")
+			(footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal")
+			(description "Mains screw terminal, 7.5mm pitch, 300V rated")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mains screw terminal, 7.5mm pitch, 300V rated")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "AC_Terminal_2P")
+				(description "Mains screw terminal, 7.5mm pitch, 300V rated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8ac30e5a-cea7-5211-8c6c-84d3b196a30d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "K1")
+			(value "Relay_5V_1CH")
+			(footprint "Wireless_Lamp_Switch:Relay_Module_1CH")
+			(description "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)")
+			(fields
+				(field
+					(name "Footprint") "Wireless_Lamp_Switch:Relay_Module_1CH")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "Relay_Module_1CH")
+				(description "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d7994a2-8549-5706-86d2-4f27987300b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "nRF24L01")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+			(description "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			)
+			(libsource
+				(lib "Wireless_Lamp_Switch")
+				(part "nRF24L01_Module")
+				(description "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Receiver.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "67b4a52f-e8cf-5839-910d-a9e98a1c1c07")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "AC_Terminal_2P")
+			(description "Mains screw terminal, 7.5mm pitch, 300V rated")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "AC_Terminal_2P")
+				(field
+					(name "Footprint") "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mains screw terminal, 7.5mm pitch, 300V rated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "HOT")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "NEUTRAL")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "Arduino_Nano")
+			(description "Arduino Nano v3 on 2x15 2.54mm headers")
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "Arduino_Nano")
+				(field
+					(name "Footprint") "Module:Arduino_Nano")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Arduino Nano v3 on 2x15 2.54mm headers")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D1/TX")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D0/RX")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "~{RESET}")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D2")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D3")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D4")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "D5")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "D6")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "D7")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "D8")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "D9")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "D10")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "D11/MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "D12/MISO")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "D13/SCK")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "AREF")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "A0")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "A2")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "A3")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "A4")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "A5")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "A6")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "A7")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "+5V")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "~{RESET}")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "VIN")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "C_Polarized")
+			(description "Electrolytic bulk capacitor for nRF24 supply")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Electrolytic bulk capacitor for nRF24 supply")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "DC_Jack_5V")
+			(description "5V DC barrel jack (centre positive)")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "DC_Jack_5V")
+				(field
+					(name "Footprint") "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V DC barrel jack (centre positive)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+5V")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "Relay_Module_1CH")
+			(description "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)")
+			(fields
+				(field
+					(name "Reference") "K")
+				(field
+					(name "Value") "Relay_Module_1CH")
+				(field
+					(name "Footprint") "Wireless_Lamp_Switch:Relay_Module_1CH")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "COM")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "NO")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Wireless_Lamp_Switch")
+			(part "nRF24L01_Module")
+			(description "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "nRF24L01_Module")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "nRF24L01+ 2.4GHz module, 2x4 2.54mm header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "CE")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "CSN")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "SCK")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "MISO")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "IRQ")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Wireless_Lamp_Switch")
+			(uri "${KIPRJMOD}/Wireless_Lamp_Switch.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Power")
+			(node
+				(ref "A1")
+				(pin "27")
+				(pinfunction "+5V_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "+5V_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "AC_HOT_IN")
+			(class "AC")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "HOT_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "4")
+				(pinfunction "COM_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "AC_HOT_OUT")
+			(class "AC")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "HOT_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "5")
+				(pinfunction "NO_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "AC_NEUTRAL")
+			(class "AC")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "NEUTRAL_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "NEUTRAL_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "GND")
+			(class "Power")
+			(node
+				(ref "A1")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "RELAY_IN")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "10")
+				(pinfunction "D7_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "3")
+				(pinfunction "IN_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "RF_3V3")
+			(class "RF_Supply")
+			(node
+				(ref "A1")
+				(pin "17")
+				(pinfunction "3V3_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "RF_CE")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "11")
+				(pinfunction "D8_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "CE_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "RF_CSN")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "12")
+				(pinfunction "D9_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "CSN_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "RF_MISO")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "15")
+				(pinfunction "D12/MISO_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "MISO_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "RF_MOSI")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "14")
+				(pinfunction "D11/MOSI_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "MOSI_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "RF_SCK")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "16")
+				(pinfunction "D13/SCK_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SCK_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(A1-A0-Pad19)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "19")
+				(pinfunction "A0_19")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(A1-A1-Pad20)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "20")
+				(pinfunction "A1_20")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(A1-A2-Pad21)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "21")
+				(pinfunction "A2_21")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(A1-A3-Pad22)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "22")
+				(pinfunction "A3_22")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(A1-A4-Pad23)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "23")
+				(pinfunction "A4_23")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(A1-A5-Pad24)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "24")
+				(pinfunction "A5_24")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(A1-A6-Pad25)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "25")
+				(pinfunction "A6_25")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(A1-A7-Pad26)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "26")
+				(pinfunction "A7_26")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(A1-AREF-Pad18)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "18")
+				(pinfunction "AREF_18")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(A1-D0{slash}RX-Pad2)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "2")
+				(pinfunction "D0/RX_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(A1-D1{slash}TX-Pad1)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "D1/TX_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(A1-D2-Pad5)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5")
+				(pinfunction "D2_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(A1-D3-Pad6)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "6")
+				(pinfunction "D3_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(A1-D4-Pad7)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "7")
+				(pinfunction "D4_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(A1-D5-Pad8)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "8")
+				(pinfunction "D5_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(A1-D6-Pad9)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "9")
+				(pinfunction "D6_9")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(A1-D10-Pad13)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "13")
+				(pinfunction "D10_13")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(A1-VIN-Pad30)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "30")
+				(pinfunction "VIN_30")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(A1-~{RESET}-Pad3)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "3")
+				(pinfunction "~{RESET}_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(A1-~{RESET}-Pad28)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "28")
+				(pinfunction "~{RESET}_28")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(K1-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "K1")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U1-IRQ-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IRQ_8")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

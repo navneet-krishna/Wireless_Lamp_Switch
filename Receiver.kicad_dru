@@ -1,0 +1,7 @@
+(version 1)
+(rule "Mains to low-voltage isolation"
+  (constraint clearance (min 3mm))
+  (condition "A.NetClass == 'AC' && B.NetClass != 'AC'"))
+(rule "Mains edge clearance"
+  (constraint edge_clearance (min 1.5mm))
+  (condition "A.NetClass == 'AC'"))

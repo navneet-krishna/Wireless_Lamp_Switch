@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Wireless_Lamp_Switch")(type "KiCad")(uri "${KIPRJMOD}/Wireless_Lamp_Switch.kicad_sym")(options "")(descr "Shared Wireless Lamp Switch symbols"))
+)

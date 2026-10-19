@@ -1,0 +1,3184 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4688f8bf-9181-511d-a708-51b65672a6ab")
+	(paper "A3")
+	(title_block
+		(title "Wireless Lamp Switch - Receiver")
+		(rev "1.0")
+		(company "Wireless_Lamp_Switch")
+		(comment 1 "All parts are pre-built modules; every net is named with a global label")
+	)
+	(lib_symbols
+		(symbol "Wireless_Lamp_Switch:AC_Terminal_2P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AC_Terminal_2P"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mains screw terminal, 7.5mm pitch, 300V rated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AC_Terminal_2P_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AC_Terminal_2P_1_1"
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "HOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "NEUTRAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Lamp_Switch:Arduino_Nano"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at 0 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Arduino_Nano"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Module:Arduino_Nano"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Arduino Nano v3 on 2x15 2.54mm headers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Arduino_Nano_0_1"
+				(rectangle
+					(start -7.62 20.32)
+					(end 7.62 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Arduino_Nano_1_1"
+				(pin passive line
+					(at -10.16 17.78 0)
+					(length 2.54)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "D0/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "D11/MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "D12/MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -17.78 180)
+					(length 2.54)
+					(name "D13/SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 17.78 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Lamp_Switch:C_Polarized"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Electrolytic bulk capacitor for nRF24 supply"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Lamp_Switch:DC_Jack_5V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DC_Jack_5V"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5V DC barrel jack (centre positive)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DC_Jack_5V_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DC_Jack_5V_1_1"
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Lamp_Switch:Relay_Module_1CH"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Relay_Module_1CH"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Wireless_Lamp_Switch:Relay_Module_1CH"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Relay_Module_1CH_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Relay_Module_1CH_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Lamp_Switch:nRF24L01_Module"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "nRF24L01_Module"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "nRF24L01+ 2.4GHz module, 2x4 2.54mm header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "nRF24L01_Module_0_1"
+				(rectangle
+					(start -5.08 10.16)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "nRF24L01_Module_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "CSN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "IRQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "(the AC_NEUTRAL_OUT terminal is the same net as AC_NEUTRAL, so it carries one name)."
+		(exclude_from_sim no)
+		(at 25.4 40.64 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a3be61a-cee8-55af-83d7-e924f3185ff8")
+	)
+	(text "Nano 3V3 -> RF_3V3 -> nRF24L01 VCC.  D7 -> RELAY_IN.  SPI as transmitter"
+		(exclude_from_sim no)
+		(at 25.4 30.48 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d607e58-6520-56fe-b09b-6c32bda399c9")
+	)
+	(text "RECEIVER: 5V DC jack -> +5V rail -> Nano 5V pin and relay VCC"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "90a429de-52b7-5574-9502-b7a6866c2879")
+	)
+	(text "MAINS: AC_HOT_IN -> relay COM, relay NO -> AC_HOT_OUT.  AC_NEUTRAL passes straight through"
+		(exclude_from_sim no)
+		(at 25.4 35.56 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d930583-cdbb-5051-830f-46ab5e553d37")
+	)
+	(no_connect
+		(at 220.98 137.16)
+		(uuid "03f3dba8-b832-54d8-b674-1b150119c8ea")
+	)
+	(no_connect
+		(at 200.66 119.38)
+		(uuid "08f21f5e-c62a-5c7d-8377-d490f794c7aa")
+	)
+	(no_connect
+		(at 220.98 132.08)
+		(uuid "15b3b01e-7f78-56a6-837a-d717c9ddca84")
+	)
+	(no_connect
+		(at 200.66 127)
+		(uuid "1b96fc84-9cea-5580-9650-f1478297f300")
+	)
+	(no_connect
+		(at 200.66 116.84)
+		(uuid "23d8e814-eebc-5908-965b-5c33b4fefe6e")
+	)
+	(no_connect
+		(at 220.98 144.78)
+		(uuid "23e81775-0413-58a6-8a9e-96209b84fe1c")
+	)
+	(no_connect
+		(at 220.98 142.24)
+		(uuid "267ae994-96bb-5e41-9036-f0194437154d")
+	)
+	(no_connect
+		(at 220.98 124.46)
+		(uuid "28548644-b3c8-52a1-9a0c-4927c4ebe0b5")
+	)
+	(no_connect
+		(at 200.66 124.46)
+		(uuid "394d3854-49e6-57c7-b313-59e97722d889")
+	)
+	(no_connect
+		(at 200.66 132.08)
+		(uuid "4b30f92e-1eaa-5a22-bc6b-7476b8da6596")
+	)
+	(no_connect
+		(at 330.2 114.3)
+		(uuid "5308b86f-e79c-5bc3-b139-800b316b4450")
+	)
+	(no_connect
+		(at 220.98 114.3)
+		(uuid "5b0b7c98-aa72-5f1b-a3ca-a55a12235b0d")
+	)
+	(no_connect
+		(at 220.98 127)
+		(uuid "5cb6d378-0665-51a2-9cd5-950d4eda857f")
+	)
+	(no_connect
+		(at 200.66 134.62)
+		(uuid "7339be20-a9ff-54e6-9416-a44a89785ad3")
+	)
+	(no_connect
+		(at 220.98 129.54)
+		(uuid "9651262c-0bae-5c10-a5bd-def62404503e")
+	)
+	(no_connect
+		(at 106.68 193.04)
+		(uuid "9870c81c-090c-5dc4-9976-329c1bc32a62")
+	)
+	(no_connect
+		(at 200.66 114.3)
+		(uuid "bd7fbe1f-19a0-5d61-b8a4-01f7f14dc198")
+	)
+	(no_connect
+		(at 220.98 139.7)
+		(uuid "bea99733-48c8-5c23-9312-8a77f559ae6b")
+	)
+	(no_connect
+		(at 200.66 129.54)
+		(uuid "c3d4463a-bcea-534f-9e6c-76a59d8395a5")
+	)
+	(no_connect
+		(at 200.66 144.78)
+		(uuid "d2115384-fa27-5ebf-8bf5-776533e382ae")
+	)
+	(no_connect
+		(at 220.98 134.62)
+		(uuid "d575c316-575b-5b33-ba4f-d2d7fa3ba0e7")
+	)
+	(no_connect
+		(at 220.98 119.38)
+		(uuid "f26c410e-6cb2-51d4-bb7a-31d194094784")
+	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 226.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad192aa-1f39-5d41-9a6b-48696a4758dc")
+	)
+	(wire
+		(pts
+			(xy 330.2 111.76) (xy 335.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdfe888-0e8b-50dd-8ad7-5342f765e343")
+	)
+	(wire
+		(pts
+			(xy 220.98 147.32) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1460a309-7028-5bbf-9d41-0e1e2a25c058")
+	)
+	(wire
+		(pts
+			(xy 330.2 106.68) (xy 335.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18dc1d31-4718-5dc6-9d3c-14a60d832130")
+	)
+	(wire
+		(pts
+			(xy 330.2 101.6) (xy 335.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2474fa09-374a-542b-b2cb-8d82b7b20943")
+	)
+	(wire
+		(pts
+			(xy 171.45 200.66) (xy 176.53 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3246566a-8fc0-5703-865e-f90ff0e69831")
+	)
+	(wire
+		(pts
+			(xy 106.68 190.5) (xy 111.76 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c74319-f4eb-5076-9151-d1b4a09a0672")
+	)
+	(wire
+		(pts
+			(xy 314.96 104.14) (xy 309.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0fe70f-e671-5911-b061-69d2c99d749c")
+	)
+	(wire
+		(pts
+			(xy 200.66 139.7) (xy 195.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5401682a-e049-572d-9850-00711fb5daf5")
+	)
+	(wire
+		(pts
+			(xy 330.2 104.14) (xy 335.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544357fe-0efb-5f8b-be59-966b2dd79ae8")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 67.31 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b495491-e074-5176-ac9f-45297489c6ad")
+	)
+	(wire
+		(pts
+			(xy 62.23 203.2) (xy 67.31 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba4ef72-7954-585e-8e94-dc86e4fd5892")
+	)
+	(wire
+		(pts
+			(xy 91.44 193.04) (xy 86.36 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b43f56b-5413-5bb0-8e07-05d99aab708c")
+	)
+	(wire
+		(pts
+			(xy 200.66 121.92) (xy 195.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9ff408-bf93-5f87-9927-36bd3742e033")
+	)
+	(wire
+		(pts
+			(xy 62.23 132.08) (xy 67.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e817e7a-3164-5405-8a65-147ca9797c2e")
+	)
+	(wire
+		(pts
+			(xy 91.44 187.96) (xy 86.36 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ced6519-2bcf-5688-b42b-2d3c119a219e")
+	)
+	(wire
+		(pts
+			(xy 220.98 149.86) (xy 226.06 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e003330-4742-551d-b2e3-ec17126518c2")
+	)
+	(wire
+		(pts
+			(xy 317.5 152.4) (xy 312.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de82476-481b-5be7-94da-91ffac457331")
+	)
+	(wire
+		(pts
+			(xy 314.96 101.6) (xy 309.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1795aa4-366f-54ca-9d8e-5b0bd40df91c")
+	)
+	(wire
+		(pts
+			(xy 91.44 190.5) (xy 86.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34097b1-e538-5acf-a5a2-575199cdb330")
+	)
+	(wire
+		(pts
+			(xy 106.68 187.96) (xy 111.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b748b41c-39a8-5d96-82e6-0c4fffe7b522")
+	)
+	(wire
+		(pts
+			(xy 200.66 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a51fcb-c7d1-571f-b39e-75dc1d06e8d8")
+	)
+	(wire
+		(pts
+			(xy 171.45 203.2) (xy 176.53 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be90834e-1945-5dc6-9a88-0cb8e782da3d")
+	)
+	(wire
+		(pts
+			(xy 62.23 200.66) (xy 67.31 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c378a6ea-8fa0-5bf8-874b-c1b2238badec")
+	)
+	(wire
+		(pts
+			(xy 200.66 137.16) (xy 195.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7cd244-8ed1-5eef-934b-22326d18f6fd")
+	)
+	(wire
+		(pts
+			(xy 200.66 142.24) (xy 195.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7711730-55e5-5175-9f53-385cffe9587b")
+	)
+	(wire
+		(pts
+			(xy 327.66 152.4) (xy 332.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77cdeb0-5f24-5023-b414-cc45a28e1a54")
+	)
+	(wire
+		(pts
+			(xy 200.66 147.32) (xy 195.58 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3d2c15-e8ce-50b7-a83b-54cf787711fc")
+	)
+	(wire
+		(pts
+			(xy 330.2 109.22) (xy 335.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b74cb9-6ccb-58d5-a038-3d125699fb9a")
+	)
+	(wire
+		(pts
+			(xy 220.98 116.84) (xy 226.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72e14dc-d9e6-5e9b-8bec-f347d7f7edf4")
+	)
+	(global_label "RF_3V3"
+		(shape passive)
+		(at 312.42 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0af00da8-7693-50d2-9f9f-740788d84ce7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape passive)
+		(at 226.06 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dd25de6-87dd-581e-999c-dbbcbeb11e78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "AC_HOT_OUT"
+		(shape passive)
+		(at 111.76 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1101ae9d-51e2-5b55-a722-43e0f59d225e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_MISO"
+		(shape passive)
+		(at 335.28 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ca703d1-911c-56f4-96b8-e8f4395e46a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_CSN"
+		(shape passive)
+		(at 195.58 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1da09811-2163-5b23-ac8d-a6e6c7b49cb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_SCK"
+		(shape passive)
+		(at 335.28 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e352b6a-c3ef-55c0-95cf-8bc36f0e2e8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_CE"
+		(shape passive)
+		(at 195.58 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d5ae98b-0abe-51bf-ad1f-643011444bfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 309.88 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45db2e18-b3bf-5793-8528-6f2851393d0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_SCK"
+		(shape passive)
+		(at 226.06 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4aee3491-b02c-56e6-b856-f7feb632d8eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 195.58 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bd18a81-f4f6-5c2f-8028-27ab1c9ae203")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 86.36 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "502b29e0-fca6-50bd-be0c-14bf2bed4f58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_3V3"
+		(shape passive)
+		(at 226.06 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54ce6f2b-5665-51e9-979d-e1c12e80d8f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_3V3"
+		(shape passive)
+		(at 309.88 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e1bc25a-13f7-5f05-8163-c1707950b3e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_MOSI"
+		(shape passive)
+		(at 195.58 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6df7253b-3285-5e40-a378-59fbd08541db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape passive)
+		(at 86.36 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ff6bf60-ff36-548b-a348-05b15ada9435")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "AC_HOT_OUT"
+		(shape passive)
+		(at 176.53 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f7a1b59-bf73-5594-b025-5ff054763ce1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 67.31 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a080b951-fe94-52d4-a110-a16c08eee3c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RELAY_IN"
+		(shape passive)
+		(at 195.58 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1dba626-1121-558d-867c-703dee0b1c8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "AC_NEUTRAL"
+		(shape passive)
+		(at 67.31 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a62d95c1-3a5f-5e6d-b072-6532c0e87f6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape passive)
+		(at 67.31 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6012633-8e08-5f83-890e-6cccf15cb7e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 332.74 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c73b7582-31d5-5a61-b229-7528f1cdda91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "AC_HOT_IN"
+		(shape passive)
+		(at 111.76 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7661ef4-0170-5a74-9686-4201e760512d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_CSN"
+		(shape passive)
+		(at 335.28 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c831388b-2593-5230-9c68-fa280fad145d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "AC_HOT_IN"
+		(shape passive)
+		(at 67.31 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c95233bc-e1b2-5b1f-b69e-7711749a19be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RELAY_IN"
+		(shape passive)
+		(at 86.36 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce528ade-126d-5bbe-8439-71c46165b5fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_CE"
+		(shape passive)
+		(at 335.28 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d85d35c5-f99c-5d26-9df8-754410bc4c81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "AC_NEUTRAL"
+		(shape passive)
+		(at 176.53 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db8b8ee1-1342-57df-a252-93a7694b5a5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_MOSI"
+		(shape passive)
+		(at 335.28 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd924b02-fbe2-5957-92f1-7b27a97523ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 226.06 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5cad3fc-302d-51c8-9ef1-e5d85f214195")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RF_MISO"
+		(shape passive)
+		(at 195.58 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e71c2e87-f5b8-5849-8cd3-31a41615a1ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:Arduino_Nano")
+		(at 210.82 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a4fbc9d-b0a0-550d-aebe-4ec5fb37db20")
+		(property "Reference" "A1"
+			(at 210.82 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Arduino_Nano"
+			(at 210.82 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Module:Arduino_Nano"
+			(at 210.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Arduino Nano v3 on 2x15 2.54mm headers"
+			(at 210.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62c10087-bb3a-5eb5-a34d-45ce301ee98a")
+		)
+		(pin "2"
+			(uuid "ef5d9dcb-a15a-5de4-9cc6-b88c453cae07")
+		)
+		(pin "3"
+			(uuid "e1ce6f5f-4b2d-5b90-8747-d5f37f7e71e2")
+		)
+		(pin "4"
+			(uuid "bb78bf15-2c6a-579f-a0c9-4ff184cc6be5")
+		)
+		(pin "5"
+			(uuid "fa9f86da-f6ab-5d3e-a7bd-ec8e50d934dc")
+		)
+		(pin "6"
+			(uuid "530f5faa-7ed2-5c7c-8135-b64c90237db5")
+		)
+		(pin "7"
+			(uuid "859c44ef-d5f3-5875-9ce1-b3b28d5a9101")
+		)
+		(pin "8"
+			(uuid "0ec8067f-e7a9-51fb-8734-9b340b6f7aee")
+		)
+		(pin "9"
+			(uuid "d0670757-4190-55bf-b7a5-a3d63955b6d5")
+		)
+		(pin "10"
+			(uuid "0e9dcffa-08c0-5ed9-b1d3-1e00a603b469")
+		)
+		(pin "11"
+			(uuid "8e2b8a7b-0674-5af1-bda8-2cff24e8d9bb")
+		)
+		(pin "12"
+			(uuid "c8d64e55-f32f-5499-b996-96e371041a25")
+		)
+		(pin "13"
+			(uuid "81bd2e2b-d83b-5003-a136-c20e5de6f768")
+		)
+		(pin "14"
+			(uuid "fa254dd3-ee4e-5172-bb2a-08985fcfe7cc")
+		)
+		(pin "15"
+			(uuid "e49c96d5-b681-559c-99eb-ab771d57c2e1")
+		)
+		(pin "30"
+			(uuid "2465ee28-9925-58eb-9645-984874c7a2f4")
+		)
+		(pin "29"
+			(uuid "213b1568-1f57-5ca0-abde-c34a1aabf9f6")
+		)
+		(pin "28"
+			(uuid "9d5d4304-2945-59a3-89ea-53947119ccb8")
+		)
+		(pin "27"
+			(uuid "d73864cb-54fc-5c5f-af51-418c8ac34f5c")
+		)
+		(pin "26"
+			(uuid "2a13c5ce-745f-5e19-ae60-f19eccc9a6ca")
+		)
+		(pin "25"
+			(uuid "967c612c-71ed-5026-ac4a-37c89290480e")
+		)
+		(pin "24"
+			(uuid "e7cf74ce-6158-56c2-ad4c-2d6965eae13a")
+		)
+		(pin "23"
+			(uuid "628a9e90-30e7-541a-82b3-9bf7aa94345d")
+		)
+		(pin "22"
+			(uuid "fd552776-2628-5737-af80-06403c755829")
+		)
+		(pin "21"
+			(uuid "36322cfa-01e2-57e6-b1df-acd871f08204")
+		)
+		(pin "20"
+			(uuid "cddd1523-2174-5281-82ae-acb047ecd614")
+		)
+		(pin "19"
+			(uuid "0930b308-8020-5c23-bdbc-30a1004522fd")
+		)
+		(pin "18"
+			(uuid "1c1ad5a6-8208-5271-a1ef-015151b97826")
+		)
+		(pin "17"
+			(uuid "44245197-dfa8-5e67-bda5-13749a4dd28a")
+		)
+		(pin "16"
+			(uuid "4cc58cec-67a3-591f-a795-658473377526")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:Relay_Module_1CH")
+		(at 99.06 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d7994a2-8549-5706-86d2-4f27987300b1")
+		(property "Reference" "K1"
+			(at 99.06 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_5V_1CH"
+			(at 99.06 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Wireless_Lamp_Switch:Relay_Module_1CH"
+			(at 99.06 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5V single-channel relay module (VCC/GND/IN, COM/NO/NC)"
+			(at 99.06 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "646b7423-aa0a-5cf2-85f2-df43014458c9")
+		)
+		(pin "3"
+			(uuid "7c2cc139-a938-5ff0-ac01-fd0217559b69")
+		)
+		(pin "2"
+			(uuid "1eee95ac-9ecc-5e4e-ab59-39ea880954ea")
+		)
+		(pin "4"
+			(uuid "46efcd18-c04f-55f9-8610-1f5a58edc512")
+		)
+		(pin "5"
+			(uuid "f0fa1cfa-39d6-5d17-8bd7-4e3f7eb57595")
+		)
+		(pin "6"
+			(uuid "4dc140b7-066f-5e9e-9c91-fbbd9f81dfe3")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:nRF24L01_Module")
+		(at 322.58 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67b4a52f-e8cf-5839-910d-a9e98a1c1c07")
+		(property "Reference" "U1"
+			(at 322.58 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nRF24L01"
+			(at 322.58 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 322.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "nRF24L01+ 2.4GHz module, 2x4 2.54mm header"
+			(at 322.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2aea98c6-528e-5cfc-95bc-ca3d87862da0")
+		)
+		(pin "1"
+			(uuid "4b62db44-e591-57a6-a78b-bab064ed1663")
+		)
+		(pin "3"
+			(uuid "a4d03c5e-2d61-5e35-a6fa-86b16125624b")
+		)
+		(pin "4"
+			(uuid "de3b485a-ec54-5ea1-a330-c8d04e8e7c3f")
+		)
+		(pin "5"
+			(uuid "5d6e97f2-188c-5819-927b-b737dc2130d9")
+		)
+		(pin "6"
+			(uuid "3031d182-69d2-5232-adf3-e7e649c684a9")
+		)
+		(pin "7"
+			(uuid "6fceb324-a745-552b-a97f-58d4e477328c")
+		)
+		(pin "8"
+			(uuid "52bc8e90-570f-516e-81f4-2d95512b3d0b")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:AC_Terminal_2P")
+		(at 165.1 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ac30e5a-cea7-5211-8c6c-84d3b196a30d")
+		(property "Reference" "J3"
+			(at 165.1 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC_OUT"
+			(at 165.1 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal"
+			(at 165.1 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mains screw terminal, 7.5mm pitch, 300V rated"
+			(at 165.1 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4346e981-a94d-5d6f-9ccc-375fa7f5f547")
+		)
+		(pin "2"
+			(uuid "41a479f1-997c-5e92-9c50-7e35b2a49aeb")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:AC_Terminal_2P")
+		(at 55.88 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dd8973a-8a61-5d6e-acb7-ad72691368e3")
+		(property "Reference" "J2"
+			(at 55.88 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 55.88 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal"
+			(at 55.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mains screw terminal, 7.5mm pitch, 300V rated"
+			(at 55.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "899af628-2767-5aef-89c6-23916ee96a63")
+		)
+		(pin "2"
+			(uuid "26bba46a-682c-5a40-95f9-89e384c58617")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:C_Polarized")
+		(at 322.58 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdad327b-5e7a-5458-8de8-357ce9ae9ad2")
+		(property "Reference" "C1"
+			(at 322.58 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 322.58 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 322.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Electrolytic bulk capacitor for nRF24 supply"
+			(at 322.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c870515-8748-5734-a4fa-d2328db4e4da")
+		)
+		(pin "2"
+			(uuid "d438326d-a25b-5a7c-9739-8d3d5f564916")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Lamp_Switch:DC_Jack_5V")
+		(at 55.88 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d28bdf77-725c-5f34-b78c-1be4bcde5fd0")
+		(property "Reference" "J1"
+			(at 55.88 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_DC_IN"
+			(at 55.88 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+			(at 55.88 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5V DC barrel jack (centre positive)"
+			(at 55.88 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ed7f95c-e40a-5805-80d9-fe08391fcdf7")
+		)
+		(pin "2"
+			(uuid "d1e523e0-278b-598a-b31e-eee457cf4e0c")
+		)
+		(instances
+			(project "Receiver"
+				(path "/4688f8bf-9181-511d-a708-51b65672a6ab"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
